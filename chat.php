@@ -2,7 +2,7 @@
 
 $db = new mysqli("localhost","root","","chat");
 if($db->connect_error){
-    die("Connection failed: " . $dc->connect_error);
+    die("Connection failed: " . $db->connect_error);
 }
 
 $result = array();
